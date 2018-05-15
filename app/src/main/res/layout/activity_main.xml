@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ambulance1"
+    tools:context="shounak.shounakbosejiit.com.calldoc.MainActivity">
+
+    <Button
+        android:id="@+id/bdoc"
+        android:layout_width="247dp"
+        android:layout_height="120dp"
+        android:text="ADD DOCTOR"
+        android:background="@drawable/largex_btn_red"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="76dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/bpat"
+        android:layout_width="247dp"
+        android:textSize="30dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="145dp"
+        android:layout_marginRight="76dp"
+        android:background="@drawable/largex_btn_blue"
+        android:text="PATIENT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
